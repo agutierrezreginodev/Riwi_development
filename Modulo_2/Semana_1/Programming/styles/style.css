@@ -1,0 +1,41 @@
+header {
+    margin: 2%;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+    margin: 3%;
+}
+
+img.main_photo {
+    border-radius: 25px;
+}
+
+section.about_me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    margin: 5%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 50%; /* Igual ancho para ambas columnas */
+    text-align: center;
+    padding: 5px;
+}
+
+section.social_media {
+    text-align: center;
+}
+
