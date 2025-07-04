@@ -1,0 +1,123 @@
+body {
+    color: #e5e5e5;
+    background-color: #03001C;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 2%;
+}
+
+header {
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #03045e;
+    border-radius: 20px;
+}
+
+a:hover {
+    color: #fca311;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+img.main_photo {
+    border-radius: 35px;
+    margin-left: 80px;
+    filter: drop-shadow(2px 2px 8px #fca311);
+    width: "500px"; 
+    height: "500px";
+}
+
+.inventory_photo {
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+.portfolio_photo {
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+section.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.personal_info {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 80px;
+}
+
+ul {
+    list-style: none;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    padding-bottom: 2px;
+}
+
+.project {
+    width: 50%;
+    background-color: #03045e;
+    border-radius: 25px;
+    margin: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #03045e;
+    border-radius: 25px;    
+    padding-bottom: 25px;
+    margin-right: 500px;
+    margin-left: 500px;
+    padding: 25px;
+}
+
+.form_name {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form_email {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form_message {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 15px;
+}
+
+.social_media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+

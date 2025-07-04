@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- Stylesheet's connection -->   
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <!--Header with site options-->
+    <header id="home">
+        <a href="#home">Home</a>
+        <a href="#info">About me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </header>
+    <main>
+
+        <!--Main title of portfolio-->
+        <h1>Adrián Gutiérrez - Riwi Developer</h1>
+
+        <!--Personal info section-->
+        <section class="info" id="info">
+            <div class="main_photo">
+                <img alt="photo_of_me" class="main_photo" src="/images/photo.jpg">
+            </div>
+            <div class="personal_info">
+                <h2>About me</h2>
+                <p>I'm currently learning about programming basics (algorithms and data structures) and web development with tecnologies like HTML5, CSS3 and JS.</p>
+                <p>I will do my best to accomplish my goal to become a Software Developer.</p>
+                <h2>Interesting Facts</h2>
+                <ul>
+                    <li>&#127969; I'm from Colombia and I live in Soledad, Atlántico.</li>
+                    <li>&#127856; I love making desserts.</li>
+                    <li>&#128106; I enjoy spending time with my family.</li>
+                    <li>&#127926;&#128293; I love to listen EDM, specifically Hardstyle.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!--Projects section-->
+        <section class="projects" id="projects">
+            <div class="project">
+                <h2>Project 1</h2>
+                <h4>Inventory Manage System</h4>
+                <img alt="inventory_photo" class="inventory_photo" src="/images/cova-software-r--jcbaXgek-unsplash.jpg">
+                <p>This was my first project, where I built an algorithm that creates some books as objects in a dictionary, also append to a list the sales the store did of any book from the inventory.</p>
+                <h4>Tecnologies</h4>
+                <a href="https://www.python.org/" target="_blank"><img alt="Python_Logo" src="/images/Python-logo-notext.svg" width="50" height="50"></a>
+            </div>
+            <div class="project">
+                <h2>Project 2</h2>
+                <h4>Portfolio</h4>
+                <img alt="portfolio_photo" class="portfolio_photo" src="/images/joshua-aragon-BMnhuwFYr7w-unsplash.jpg">
+                <p>This is the creation of my professional portfolio to introduce myself and my work to the network and interested ones.</p>
+                <h4>Tecnologies</h4>
+                <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank"><img alt="HTML5_Logo" src="/images/HTML5_logo_and_wordmark.svg" width="50" height="50"></a> 
+                <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank"><img alt="CSS3_Logo" src="/images/Official_CSS_Logo.svg" width="50" height="50"></a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img alt="JS_Logo" src="/images/Unofficial_JavaScript_logo_2.svg" width="50" height="50"></a>
+                    
+            </div>
+        </section>
+
+        <!--Contact me section-->
+        <section class="contact" id="contact">
+            <h2 class="form_title">Contact me</h2>
+            <form>
+                <div class="form_name">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name">
+                </div>
+                <div class="form_email">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" placeholder="Email">
+                </div>
+                <div class="form_message">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" placeholder="Leave your message"></textarea>
+                    <button>Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    
+    <!--Footer with my social media accounts and copyright rights.-->
+    <footer>
+        <section class="social_media">
+                <h2>Social Media</h2>
+                <div class="footer_icons">
+                    <a href="https://github.com/agutierrezreginodev"><img alt="GitHub_Logo" src="/images/github-color-svgrepo-com.svg" width="50" height="50"></a>
+                    <a href="https://www.linkedin.com/in/adrian-gutierrez-regino/"><img alt="Linkedin_Logo" src="/images/icons8-linkedin.svg" width="50" height="50"></a>
+                </div>
+        </section>
+        <p class="copyright">&copy; 2025 Adrián Andrés Gutiérrez Regino. All rights reserved.</p>
+    </footer>
+</body>
+</html>
